@@ -7,6 +7,18 @@ import Home from '../Home/Home';
 
 
 const App = () => {
+  const [cassandrasThings] = useState([
+    {
+      name: "traits",
+      image: "https://imgur.com/r9O2fDC",
+      attributes: ["loving", "sneaky", "lazy"]
+    },
+    {
+      name: "toys",
+      image: "https://imgur.com/gallery/g8qmH",
+      attributes: ["loud", "cheap", "fun"]
+    }
+  ])
   const [davidsThings] = useState([
     {
       name: "waffle",
@@ -58,6 +70,7 @@ const App = () => {
         {/* All the <Route> components should live here */}
         <Route path='/the-functional-things' element={<FunctionalThings things={shahzadsThings} />} />
         <Route path='/the-well-styled-things' element={<StyledThings things={davidsThings} />} />
+        <Route path='/the-cat-things' element={<CatThings things={cassandrasThings} />} />
       </Routes>
     </>
   );
