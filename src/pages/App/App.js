@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css';
 import FunctionalThings from '../FunctionalThings/FunctionalThings'
 import StyledThings from '../StyledThings/StyledThings'
+import CatThings from '../CatThings/CatThings';
 import Home from '../Home/Home';
 
 
