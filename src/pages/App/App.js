@@ -12,12 +12,12 @@ const App = () => {
   const [cassandrasThings] = useState([
     {
       name: "traits",
-      image: "https://imgur.com/r9O2fDC",
+      image: "https://i.imgur.com/8RkVGu0.jpeg",
       attributes: ["loving", "sneaky", "lazy"]
     },
     {
       name: "toys",
-      image: "https://imgur.com/gallery/g8qmH",
+      image: "https://i.imgur.com/g8qmH.jpeg",
       attributes: ["loud", "cheap", "fun"]
     }
   ])
