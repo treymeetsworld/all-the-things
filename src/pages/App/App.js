@@ -4,6 +4,7 @@ import './App.css';
 import FunctionalThings from '../FunctionalThings/FunctionalThings'
 import StyledThings from '../StyledThings/StyledThings'
 import CatThings from '../CatThings/CatThings';
+import GameThings from '../GameThings/GameThings'
 import Home from '../Home/Home';
 
 
